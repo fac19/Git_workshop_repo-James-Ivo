@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    --bg-color: hsl(40, 100%, 80%);
+  }
+
+  body {
+    background-color: var(--bg-color);
   }
   
   .page-heading {
